@@ -21,7 +21,10 @@ def map_to_double( array )
 end
 
 def map_to_square( array )
-  doubled_array = []
+  squared_array = []
   array.length.times do |i|
-    doubled_array[i] = array[i] * 2
+    squared_array[i] = array[i] **
   end
+  
+  squared_array
+end
