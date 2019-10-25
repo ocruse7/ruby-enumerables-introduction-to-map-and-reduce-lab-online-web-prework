@@ -31,9 +31,10 @@ end
 
 def reduce_to_total( array, start )
   total = 0
-  index = 0
   
-  while 
+  array.length.times do |i|
+    total += array[i]
+  end
   
   total
 end
