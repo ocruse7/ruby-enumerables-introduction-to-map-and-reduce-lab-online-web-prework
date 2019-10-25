@@ -29,12 +29,11 @@ def map_to_square( array )
   squared_array
 end
 
-def reduce_to_total( array )
+def reduce_to_total( array, start )
   total = 0
+  index = 0
   
-  array.length.times do |i|
-    total += array[i]
-  end
+  while 
   
   total
 end
