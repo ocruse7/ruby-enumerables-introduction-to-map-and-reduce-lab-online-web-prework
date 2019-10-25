@@ -28,3 +28,5 @@ def map_to_square( array )
   
   squared_array
 end
+
+def reduce_to_total
