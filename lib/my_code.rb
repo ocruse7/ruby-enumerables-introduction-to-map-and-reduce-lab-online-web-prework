@@ -23,7 +23,7 @@ end
 def map_to_square( array )
   squared_array = []
   array.length.times do |i|
-    squared_array[i] = array[i] **
+    squared_array[i] = array[i] 
   end
   
   squared_array
