@@ -11,3 +11,17 @@ def map_to_no_change( array )
   array
 end
 
+def map_to_double( array )
+  doubled_array = []
+  array.length.times do |i|
+    doubled_array[i] = array[i] * 2
+  end
+  
+  doubled_array
+end
+
+def map_to_square( array )
+  doubled_array = []
+  array.length.times do |i|
+    doubled_array[i] = array[i] * 2
+  end
